@@ -1,0 +1,16 @@
+# Identify the MAC address of the Wi-Fi card
+
+ifconfig en1 | awk '/ether/{print $2}'
+
+# en1        -> name of Wi-Fi card
+# awk 	     -> is used to print something
+# /ether/ 	 -> pattern which have to match in line
+# {print $2} -> print only second word in line
+
+
+# For information and education
+
+# This is the same as:
+# ifconfig en1 | grep ether | cut -f 2 -d " "
+
+# $0         -> print all line
