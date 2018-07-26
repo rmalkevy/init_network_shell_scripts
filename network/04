@@ -1,2 +1,12 @@
 # Identifiy the default gateway in the routing table
 
+route -n get default | awk '/gateway/ {print $2}'
+
+# route       -> show / manipulate the IP routing table
+# -n 	      -> show numerical addresses instead of trying to determine symbolic host names
+# get default -> get default gateway in the routing table
+
+# For information
+# Do the same -> netstat -nr | grep default | awk '/en0/{print $2}'
+# -r 		  -> routes table
+
