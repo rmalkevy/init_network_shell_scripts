@@ -1,0 +1,15 @@
+# Get the complete path of the file that contains the IP address of the DNS server
+# you’re using
+
+echo /var/run/resolv.conf
+
+# Deduction
+# Many of sources said that path to file that contain the IP adress of the DNS server is /etc/resolv.conf
+# but if you do this ls -l /etc/resolv.conf
+# you will get something like this -> lrwxr-xr-x  1 root  wheel  22 Oct 11  2017 /etc/resolv.conf -> ../var/run/resolv.conf
+# That means that /etc/resolv.conf path is only symbolic link (pointer to another file)
+
+# to see guts of the file use  -> cat /etc/resolv.conf
+# 						   or
+# 							   -> cat /var/run/resolv.conf
+
