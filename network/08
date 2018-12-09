@@ -1,0 +1,9 @@
+# Find the provider of slash16.org
+
+aws (Amazon Web Services)
+
+# This is the way how to get result -> whois slash16.org
+# WHOIS is a TCP-based query and response protocol that is commonly used
+# to provide information services to Internet users.
+# It returns information about the registered Domain Names, an IP address block, Name Servers
+# and a much wider range of information services.

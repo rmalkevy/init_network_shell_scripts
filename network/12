@@ -1,0 +1,8 @@
+# Find the IP that was assigned to you by dhcp server
+
+ping 192.168.31.1
+
+# the way to find ip -> ipconfig getpacket en0
+# domain_name_server
+# less /etc/resolv.conf
+

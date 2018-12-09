@@ -1,0 +1,7 @@
+# Identify the network devices between your computer and the slash16.org domain
+
+traceroute slash16.org
+
+# Traceroute is a utility that records the route between your computer and
+# slash16.org server. It also displays the amount of time each hop takes.
+# If you cannot reach your site, a traceroute will help us determine the issue.

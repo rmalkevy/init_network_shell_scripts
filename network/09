@@ -1,0 +1,15 @@
+# Find the external IP of 42.fr
+
+Server:         192.168.31.1
+Address:        192.168.31.1#53
+
+Non-authoritative answer:
+Name:   42.fr
+Address: 163.172.250.12
+Name:   42.fr
+Address: 163.172.250.11
+Name:   42.fr
+Address: 163.172.250.13
+
+# This is a way how to get that result ->
+# nslookup  42.fr

@@ -1,0 +1,6 @@
+# What file contains the local DNS entries?
+
+/private/etc/hosts
+/etc/hosts
+
+# way to look info from file -> cat /private/etc/hosts
