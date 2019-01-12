@@ -1,0 +1,6 @@
+# What command can you use to rename your system?
+
+hostname new-hostname
+
+# You can change hostname by changing hostname in /etc/hostname file,
+# but not immediately, only after rebooting computer

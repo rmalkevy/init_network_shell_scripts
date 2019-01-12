@@ -1,0 +1,9 @@
+# Explain how connect yourself as new user. (With graphic session and ssh session)
+
+# First, you need to start ssh session
+ssh username@host
+
+# Second, you need to create new user
+sudo adduser new_username
+
+# This is a simple way to connect yourself as new user

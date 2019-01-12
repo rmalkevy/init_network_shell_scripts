@@ -1,0 +1,14 @@
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+~/.ssh/authorized_keys
+
+# When you create a new user, the ~/.ssh directory is not created him by default.
+# You have create it. Then you have to create ~/.ssh/authorized_keys file where you will copy the public key.
+
+# On your server, check whether ~/.ssh or ~/.ssh/authorized_keys exists.
+# Looking at hte error you have, it seems that it does not. So manualy create it.
+
+# BTW, ~ in above statement means User's home directory.
+# So if you have user called user1, then it would be /home/user1/.ssh or /home/user1/.ssh/authorized_keys
+
+# Link to create ssh keys file -> http://ubuntu.fliplinux.com/bash-home-user-ssh-authorized_keys-x.html

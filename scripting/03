@@ -1,0 +1,5 @@
+# Three’s a Charm. Write a script of you choice
+
+# sudo apt-get install toilet
+
+toilet -f bigmono9 -F gay '42'

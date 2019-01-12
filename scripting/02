@@ -1,0 +1,8 @@
+# Write a script which delete an ACTIVE user on the VM
+
+ACTIVE_USER="$(who | cut -d ' ' -f1 | sort | uniq | head)"
+sudo userdel $ACTIVE_USER
+
+
+# To remove home directory :
+# sudo rm -r /home/username

@@ -1,0 +1,6 @@
+# What command lets you know who is connected to the System?
+
+who -a
+
+# Use who command is used to find current logged in users in your system along with other useful details.
+# You can find details like remote IP address, terminal details, date/time of login etc.

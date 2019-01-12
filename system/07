@@ -1,0 +1,7 @@
+# Figure out the PID of the SSHD service.
+
+service ssh status | grep 'Main PID' | cut -f 4 -d " "
+
+# grep 'Main PID' -> take line that starting with 'Main PID'
+# cut -f 4        -> -f split line to array, 4 get forth element of array
+# -d " " 	      -> delimeter
